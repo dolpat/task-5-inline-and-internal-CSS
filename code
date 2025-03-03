@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline and Internal CSS</title>
+    <style>
+        body {
+            background-color: lightgrey;
+            margin: 100px;
+            font-family: Arial, sans-serif;
+        }
+        .heading-2 {
+            color: blue;
+        } 
+        #name {
+            height: 12px;
+            text-align: center;
+        }
+        #email, #phone, #address, #linkedIn {
+            display: flex;
+            justify-content: center;
+            height: 12px;
+        }
+        #table tr:nth-child(even) {
+            background-color: dfdfdf;
+        }
+        #table tr:nth-child(odd)  {
+        background-color: #fff;
+        }
+        #table {
+            border: 2px;
+            border-collapse: collapse;
+            border-style: solid;
+            text-align: center;
+            width: 100%;
+        }
+        a:link {
+            color: blue;
+        }
+        a:visited {
+            color: purple;
+        }
+        a:hover {
+            color: palevioletred;
+        }
+        
+    </style>
+</head>
+<body>
+
+<img src="c:\Users\HP\Downloads\474611192_1335077600959651_1372506478093924768_n.jpg" width="160" height="150" style="display: block; margin: 0 auto; border: 2px solid black;"> 
+<h1 id="name">Andrea R. Villarba</h1>  
+       <span id="email"><b>Email: </b><a target="_blank" href="mail to:andreavillarba54@gmail.com">andreavillarba54@gmail.com</a></span><br>
+       <span id="phone"><b>Phone: </b>0953-455-1132</span><br>
+       <span id="address"><b>Address: </b>Royal Meadows, Tangle, Mexico, Pampanga</span><br>
+       <span id="linkedIn"><b>LinkedIn: </b><a href="https://www.facebook.com/share/15wNB3mFbo/">https://www.facebook.com/share/15wNB3mFbo/</a></span><br>
+    <hr>
+    <div id="below-the-hr">
+    <h2 id="career-objective" class="heading-2">Career Objective</h2>
+        <p>
+            To secure a challenging role in the IT industry where I can leverage my proficiency in Java programming, web development, and database management to design and implement innovative solutions that enhance organizational efficiency and drive technological growth. My goal is to consistently improve my technical knowledge while contributing my abilities to the development of reliable online apps and data system optimization.
+        </p>
+   <h2 id="expertise-bio" class="heading-2">Expertise Bio</h2>
+    <p>
+       I am a seasoned Information Technology professional with four years of experience spanning system software development, technical support, and IT solutions. My expertise lies in identifying and resolving complex technical issues, streamlining workflows, and delivering innovative solutions to meet organizational needs.
+        </p>
+   
+    <h2 id="education" class="heading-2">Education</h2>
+    <p>
+        <ul>
+            <li>Pampanga State Agricultural University(2028)</li>
+            <li>Don Jesus Gonzales High School (2024)</li>
+            <li>Pandacaqui Resettlement Elementary School(2018)</li>
+        </ul>
+    </p>
+   
+    <h2 class="heading" id="experience">Work Experience or Seminars and Workshop Attended</h2>
+    <p>
+            I took seminars at the Future Tech Solutions as an Junior Software Developer in Cebu business park, Cebu City.
+         </p>  
+
+    <h2 id="Hardware-skills" class="heading">Hardware Skills</h2>
+        <ul>
+            <li>System performance monitoring</li>
+            <li>Cabling and Infrastructure</li>
+           
+        </ul>
+   
+    <h2 id="Software-skills" class="heading">Software Skills</h2>
+        <ul>
+            <li>Programming languages: HTML and Java</li>
+        </ul>
+   
+    <h2 class="heading-2">Character Reference</h2>
+        <table id="table" cellpadding="4px" cellspacing="0px">
+    <tr>
+           <th>FULL NAME</th>
+           <th>DESIGNATION</th>
+           <th>EMAIL</th>
+           <th>CONTACT NUMBER</th>
+     </tr>
+     <tr>
+     <td>Shaira T. Salamat</td>
+     <td>Teacher</td>
+     <td>shaira@gmail.com</td>
+     <td>0926-680-6693</td>
+  </tr>
+      </tr>
+     <tr>
+     <td>Jhervin D. Mallari</td>
+     <td>Teacher, Programmer</td>
+     <td>jrvn@gmail.com</td>
+     <td>0951-915-9875</td>
+  </tr>
+      </tr>
+     <tr>
+     <td>Ira D. Sibug</td>
+     <td>Teacher</td>
+     <td>ayra@gmail.com</td>
+     <td>0963-641-2471</td>
+  </tr>
+  </table>
+  <p>I wholeheartedly pledge that all the statements mentioned in my resume, including my skills, education, and experience, are completely accurate.</p>
+   <ul type="disc" >
+    <a href="=#summary"><Summary></Summary></a>
+       <a href="=#education"><Education></Education></a>
+       <a href="=#experience"><Experience></Experience></a>
+       <a href="=#hardware-skills"><Hardware-skills></Hardware-skills></a>
+       <a href="=#software-skills"><Software-skills></Software-skills></a>
+   </ul>
+     <a id="back-to-top" href="html">Back to Top</a>
+</body>
+</html>
